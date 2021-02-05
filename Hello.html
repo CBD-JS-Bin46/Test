@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Search</title>
+    <style>
+        input[type=text] {
+            width: 500px;
+            padding: 12px 20px;
+            box-sizing: border-box;
+            border: 1px solid gray;
+            border-radius: 25px;
+            font-size: small;
+            color:black;
+        }
+        
+        input[type=submit] {
+            width: 100;
+            padding: 8px 12px;
+            margin: 8px 8px;
+            box-sizing: border-box;
+            background-color:rgb(245, 245, 245);
+            border-style: solid;
+            border: 1px none;
+            font-size: small;
+        }
+
+        .right_buttons {
+            text-align: right;
+            padding: 20px 200px;
+        }
+
+        div {
+            text-align: center;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        a:link {
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: small;
+        }
+
+        a:visited {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a:active {
+            text-decoration: underline;
+        }
+
+        table {
+            margin-left: auto;
+        }
+
+        td {
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id=content_container>
+        <form action="https://google.com/search">
+            <p>
+            <table>
+                <tr>
+                    <td><a href="image_search.html">Image Search</a></td>
+                    <td><a href="advanced_search.html">Advanced Search</a></td>
+                </tr>
+            </table>
+            </p>
+            <p>&nbsp:</p>
+            <p><input id="input_box" type="text" name="q"></p>
+            <p><input type="submit" name="bynG" value="Google Search"> <input type="submit" name="btnI" value="I'm Feeling Lucky"></p>
+
+        </form>
+    </div>
+</body>
